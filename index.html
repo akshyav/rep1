@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>time pass</title>
+
+  <style>
+    body {
+      background-image:url("https://static.vecteezy.com/system/resources/thumbnails/006/326/646/small/mountain-and-sunset-sky-landscape-vector.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	min-height:90vh;
+	margin:0;
+    }
+h1{color:white;
+	font-family:timesnewroman;
+	font-style:italic;
+text-align:center;
+}
+p{color:purple;
+font-family:timesnewroman;
+	font-style:italic;
+text-align:center;}
+
+.one{color:purple;
+font-family:timesnewroman;
+	font-style:italic;
+text-align:center;
+}
+.button1{
+text-align:center;
+display:flex;
+justify-content:center;
+}
+.my-button {
+  padding: 12px 24px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+  </style>
+</head>
+
+<body>
+  <h1>Hello!</h1>
+  <p class="one"><strong>Trying my hands on web development</strong></p>
+  <p><strong>Thank you!</strong></p>
+	<p><strong>Have a great day!</strong></p>
+<div class="button1">
+	 <button class="my-button">click to waste time</button>
+</div>
+  <script>
+    const button = document.querySelector(".my-button");
+
+    button.addEventListener("click", function() {
+      alert("taking you to another website");
+window.location.href="https://www.instagram.com/accounts/login/?hl=en";
+    });
+  </script>
+</body>
+</html>
